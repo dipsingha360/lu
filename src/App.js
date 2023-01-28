@@ -11,6 +11,7 @@ import Reunion from "./components/Reunion";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import NotFound from "./components/NotFound";
+import Resource from "./components/Resource";
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/career" element={<Career />} />
+          <Route path="/resource" element={<Resource />} />
           <Route path="/community" element={<Community />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/login" element={<Login />} />

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar-warp  bg-indigo-600">
+    <nav className="navbar-warp  bg-indigo-600 sticky top-0 shadow-xl">
       <div className="navbar container mx-auto flex justify-between items-center py-5 ">
         <Link to="/" className="text-4xl text-indigo-50 font-bold">
           LOGO
@@ -18,10 +18,10 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/career"
+              to="/resource"
               className="text-indigo-50 hover:text-cyan-300 duration-300"
             >
-              Career
+              Resource
             </Link>
           </li>
           <li>
