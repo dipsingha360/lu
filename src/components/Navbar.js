@@ -16,22 +16,38 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/resource"
               className="text-indigo-50 hover:text-cyan-300 duration-300"
             >
               Resource
             </Link>
+          </li> */}
+          <li>
+            <Link
+              to="/career"
+              className="text-indigo-50 hover:text-cyan-300 duration-300"
+            >
+              Career
+            </Link>
           </li>
           <li>
+            <Link
+              to="/gallery"
+              className="text-indigo-50 hover:text-cyan-300 duration-300"
+            >
+              Gallery
+            </Link>
+          </li>
+          {/* <li>
             <Link
               to="/community"
               className="text-indigo-50 hover:text-cyan-300 duration-300"
             >
               Community
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/magazine"
